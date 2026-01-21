@@ -1,10 +1,12 @@
-!pip install --upgrade pip
-!pip install transformers==4.36.0
-!pip install datasets==2.15.0
-!pip install torch torchvision torchaudio
-!pip install sentencepiece==0.1.99
-!pip install sacrebleu==2.3.1
-!pip install evaluate==0.4.1
-!pip install accelerate==0.25.0
-!pip install protobuf==3.20.3
+pip install --upgrade pip
+pip install transformers==4.36.0
+pip install datasets==2.15.0
+pip install torch torchvision torchaudio
+pip install sentencepiece==0.1.99
+pip install sacrebleu==2.3.1
+pip install evaluate==0.4.1
+pip install accelerate==0.25.0
+pip install protobuf==3.20.3
 pip install transformers datasets torch sentencepiece sacrebleu evaluate accelerate
+pip install sacrebleu  # For BLEU score calculation
+pip install huggingface-hub  # For dataset authentication
